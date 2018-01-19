@@ -1,0 +1,12 @@
+body {
+	background-color: #E5E4E4;
+}
+
+.userInformation {
+	font-weight: bold;
+}
+
+.test {
+	font-weight: lighter;
+	color: red;
+}

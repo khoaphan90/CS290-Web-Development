@@ -1,0 +1,11 @@
+My attempt at the open weather API was both sucessful and unsuccessful. I was able to gain information using the
+previous assignment with getting information from OWM, but had a hard time trying to understand and organize
+how to work with it using multiple cities. This is challenging as I still have had a more difficult time trying
+to understand the requests that must be made, maybe something that limits them will allow me to work with the 
+integrity of my list.
+
+During this session, I wanted to have a list that will be sent by the client that will then update the session with
+more current results. This way, I the list can be more active. Again, controlling the requests was difficult for me
+to understand at the current moment. Using the examples as a base, I was able to request the correct data and link
+the views from the get and post data assignments. Creating the session was simple but organization was a lot to
+manage all at once. I plan to spend more time reviewing this topic.

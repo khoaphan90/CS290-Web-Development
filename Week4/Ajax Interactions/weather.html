@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajax Interactions - Open Weather Map</title>
+	<link rel="stylesheet" type="text/css" href="weather.css">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Open Weather Map</legend>
+			<label for="location"></label>
+				<div>
+					<input type="text" name="citySearch" id="citySearch" placeholder="search by city">
+				</div>
+				<div>
+					<input type="number" name="zipSearch" id="zipSearch" placeholder="search by zip code">
+				</div>
+			<button type="submit" id="locationSearch">Submit</button>
+		</fieldset>
+	</form>
+	<div>
+		<h2>Weather Information</h2>
+		<ul class="weatherInfo">
+			<li>City: 
+				<label class="info" id="city"></label>
+				</li>
+			<li>Temperature: 
+				<label class="info" id="temp"></label>
+			</li>
+			<li>Forecast: 
+				<label class="info" id="forecast"></label>
+			</li>
+			<li>Humidity: 
+				<label class="info" id="humidity"></label>
+			</li>
+			<li>High Temperature: 
+				<label class="info" id="tempHigh"></label>
+			</li>
+			<li>Low Temperature: 
+				<label class="info" id="tempLow"></label>
+			</li>
+			<li>Wind Speed: 
+				<label class="info" id="windspeed"></label>
+			</li>
+		</ul>
+	</div>
+	<script src="weather.js"></script>
+</body>
+</html>

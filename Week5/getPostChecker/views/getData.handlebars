@@ -1,0 +1,15 @@
+<h1>GET Request</h1>
+<table>
+		{{#if dataList.length}}
+			<tr>
+				<th>Name</th>
+				<th>Value</th>
+			</tr>
+		{{/if}}
+		{{#each dataList}}
+			<tr>
+				<td>{{this.name}}</td>
+				<td>{{this.value}}</td>
+			</tr>
+		{{/each}}
+</table>

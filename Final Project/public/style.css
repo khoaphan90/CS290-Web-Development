@@ -1,0 +1,59 @@
+body {
+  background: lightgrey;  
+}
+
+#input {
+  width: 250px;
+}
+
+.type {
+    font-family: arial;
+    font-size: 20px;
+}
+
+input {
+    width: 130px;
+    float: right;
+}
+
+input[type=date] {
+    height: 19px;
+    width: 129px;
+}
+
+select {
+    width: 134px;
+    height: 19px;
+    float: right;
+}
+
+legend {
+  font-family: arial;
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.info {
+ color: grey;
+}
+
+#main {
+  color: white;
+  background: grey;
+  text-align: left;
+  font-family: arial;
+  float: left;
+  position: relative;
+  width: 80%;
+  border: 1px solid black
+}
+
+td {
+  background: rgba(0,0,0,0.2);
+}
+
+table label {
+    width: 1000px;
+}

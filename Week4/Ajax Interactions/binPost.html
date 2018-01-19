@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajax Interactions - Open Weather Map</title>
+	<link rel="stylesheet" type="text/css" href="binPost.css">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Information</legend>
+			<label for="location"></label>
+				<div>Name:
+					<input type="text" name="userName" id="userName" placeholder="name">
+				</div>
+				<div>Age:
+					<input type="number" name="userAge" id="userAge" placeholder="age">
+				</div>
+				<div>Weight:
+					<input type="number" name="userWeight" id="userWeight" placeholder="weight">
+				</div>
+			<button type="submit" id="userSubmit">Submit Information!</button>
+		</fieldset>
+	</form>
+	<div>
+		<h2>Submitted Infomation</h2>
+		<p class="userInformation">
+			Name:
+			<label class="test" id="returnName"></label><br>
+			Age:
+			<label class="test" id="returnAge"></label><br>
+			Weight:
+			<label class="test" id="returnWeight"></label>
+		</p>
+	</div>
+	<script src="binPost.js"></script>
+</body>
+</html>
